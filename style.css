@@ -1,0 +1,194 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+    margin: 0;
+    color: white;
+    overflow: hidden;
+
+    
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    
+}
+
+.sidebar{
+    background-color: black;
+    width: 350px;
+    border-radius: 1rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    
+    
+}
+
+.main-content{
+    background-color: #121212;
+    flex:1;
+    border-radius: 1rem;
+    overflow: auto;
+    margin:0.5rem;
+    background: linear-gradient(to bottom, #252525, #121212);
+    
+}
+
+.music-player{
+    background-color:black;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 72px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav{
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.75rem
+}
+
+.nav-option{
+    line-height:2.5rem ;
+    opacity: 0.7;
+    padding: 0.5rem 0.75rem;
+}
+.nav-option:hover{
+    line-height:2.5rem ;
+    opacity: 1;
+}
+.nav-option i{
+    font-size: 1.25rem;
+}
+
+.nav-option a{
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.libhead{
+    padding: 1rem;
+}
+.lib{
+    background-color: #121212;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    height: 80vh;
+    
+}
+
+#libicon{
+    width: 1rem;
+}
+
+.opt1, .opt2{
+    background-color: #252525;
+    border-radius: 0.5rem;
+    margin: 1rem 0.5rem;
+    padding: 1rem;
+}
+.opt1 a, .opt2 a{
+    font-weight: 700;
+}
+.button1, .button2 ,.button3, .button4{
+    border-radius: 1.5rem;
+    font-family: "Montserrat";
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+
+}
+
+.backfor, .loginicon{
+    background-color: black;
+    border-radius: 50%;
+    padding: 0.5rem;
+    margin-left: 1rem;
+}
+
+.backfor:hover, .loginicon:hover{
+    background-color: rgb(39, 39, 39);
+    border-radius: 50%;
+    padding: 0.5rem;
+    margin-left: 1rem;
+}
+.header{
+    padding: 1rem;
+    display: flex;
+}
+
+.header .button{
+    align-items: flex-end;
+    margin-left:auto ;
+}
+
+.spacer{
+    flex-grow: 1;
+}
+
+.loginicon{
+    font-size: 2rem;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    overflow: hidden;
+    width: 10rem;
+    background-color: #272727;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+.card:hover{
+    background-color: #121212;
+}
+.head{
+    font-weight: 700;
+}
+.card a img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.mainarea h2{
+    margin-left: 1.5rem;
+}
+
+.main-player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-player .icon a img{
+    width: 2rem;
+    margin: 1rem;
+}
+
+#icon1 a img{
+    width: 1.5rem;
+}
+#icon2 a img{
+    width: 1.4rem;
+}
+#icon3 a img{
+    width: 2rem;
+}
+#icon4 a img{
+    width: 1.4rem;
+}
+#icon5 a img{
+    width: 1.4rem;
+}
+
+button{
+    border: none;
+}
